@@ -16,9 +16,10 @@ angular.module('todoApp.controllers',[])
 Todos) {
 	$scope.todoText = "";
 	$scope.todoDetails = "";
+	$scope.todoDate="";
 	$scope.save = function() {
 		Todos.push({text:$scope.todoText, done:false,
-	details:$scope.todoDetails});
+	details:$scope.todoDetails, date:$scope.todoDate});
 		$location.path('/');
 	};
 })
@@ -32,23 +33,26 @@ Todos) {
      });
 	$scope.todoText = result[0].text;
 	$scope.todoDetails = result[0].details;
+	$scope.todoDate = result[0].date;
 	$scope.save = function() {
 		var text = $scope.todoText;
 		var details = $scope.todoDetails;
 		var done = $scope.todoDone;
+		var date = $scope.todoDate;
 		alert(text);
 		angular.forEach($scope.todos, function(todo) {
 	if(todo.text == text) {
 		todo.text = text;
 		todo.details = details;
+		todo.date = date;
 	}
 	});
 
 	$location.path('/');
 	};
-
+/*
 $scope.destroy = function() {
 		$scope.$remove();
 		$location.path('/');
-	};
+	}; */
 });
