@@ -1,0 +1,22 @@
+<span>{{remaining()}} of {{todos.length}} remaining</span>
+<table>
+	<thead>
+		<tr>
+			<th>Tasks</th>
+			<th>Done</th>
+			
+			<th ><button type="button" class="btn btn-light"><a href="#/new"><i class="far fa-calendar-plus"></i></i> Add  </a></button></th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr ng-repeat="todo in todos">
+			<td >{{todo.text}}</td>
+			<td><input type="checkbox" class="form-control" ng-model="todo.done"></td>
+			<td>
+				<button class="btn btn-light"><a href="#/edit/{{todo.text}}"><i class="fas fa-edit"></i>Edit</i></a></button>
+				<button ng-click="todos.splice($index, 1)" ng-show="todo.done" class="btn btn-danger">Delete</button>
+				
+			</td>
+		</tr>
+	</tbody>
+</table>

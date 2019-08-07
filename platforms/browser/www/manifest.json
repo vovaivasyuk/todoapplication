@@ -1,0 +1,11 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "ToDoApplication",
+  "short_name": "ToDoApplication",
+  "version": "io.cordova.hellocordova",
+  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "author": "Volodymyr Ivasiuk",
+  "icons": [],
+  "start_url": "index.html"
+}
