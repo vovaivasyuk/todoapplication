@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0fe02912-431a-44ee-894e-c6b361f9f1c5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/js/controller/todo.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/js/controller/todo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/js/services/todo.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/js/services/todo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/partials/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/partials/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/www/js/controller/todo.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/www/js/controller/todo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/www/js/services/todo.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/www/js/services/todo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/www/partials/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/www/partials/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/js/controller/todo.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/controller/todo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/js/services/todo.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/services/todo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/partials/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/partials/detail.html" afterDir="false" />
-    </list>
+    <list default="true" id="0fe02912-431a-44ee-894e-c6b361f9f1c5" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -227,12 +216,12 @@
       <workItem from="1565183407390" duration="5000" />
       <workItem from="1565183561781" duration="154000" />
       <workItem from="1565183858042" duration="520000" />
-      <workItem from="1565202620658" duration="2072000" />
+      <workItem from="1565202620658" duration="2734000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29090000" />
+    <option name="totallyTimeSpent" value="29752000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
