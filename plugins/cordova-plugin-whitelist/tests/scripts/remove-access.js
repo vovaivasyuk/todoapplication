@@ -1,4 +1,6 @@
+// eslint-disable-next-line no-undef
 var fs = require('fs');
+// eslint-disable-next-line no-undef
 var path = require('path');
 var rootdir = "";
 var file = path.join(rootdir, "platforms/android/app/src/main/res/xml/config.xml");

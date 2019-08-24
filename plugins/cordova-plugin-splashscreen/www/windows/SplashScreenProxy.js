@@ -21,7 +21,8 @@
 
 /*jslint sloppy:true */
 
-var splash = require('cordova/splashscreen');
+// eslint-disable-next-line no-undef
+let splash = require('cordova/splashscreen');
 
 var SplashScreen = {
     show: function () {
@@ -32,6 +33,8 @@ var SplashScreen = {
     }
 };
 
+// eslint-disable-next-line no-undef
 module.exports = SplashScreen;
 
+// eslint-disable-next-line no-undef
 require("cordova/exec/proxy").add("SplashScreen", SplashScreen);

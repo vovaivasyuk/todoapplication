@@ -1,175 +1,554 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0fe02912-431a-44ee-894e-c6b361f9f1c5" name="Default" comment="" />
-    <ignored path="$PROJECT_DIR$/.tmp/" />
-    <ignored path="$PROJECT_DIR$/temp/" />
-    <ignored path="$PROJECT_DIR$/tmp/" />
+    <list default="true" id="0fe02912-431a-44ee-894e-c6b361f9f1c5" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-services.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@types/events/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@types/events/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@types/glob/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@types/glob/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@types/minimatch/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@types/minimatch/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@types/node/assert.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@types/node/async_hooks.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@types/node/base.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@types/node/buffer.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@types/node/child_process.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@types/node/cluster.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@types/node/console.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@types/node/constants.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@types/node/crypto.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@types/node/dgram.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@types/node/dns.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@types/node/domain.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@types/node/events.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@types/node/fs.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@types/node/globals.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@types/node/http.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@types/node/http2.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@types/node/https.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@types/node/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@types/node/inspector.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@types/node/module.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@types/node/net.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@types/node/os.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@types/node/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@types/node/path.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@types/node/perf_hooks.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@types/node/process.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@types/node/punycode.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@types/node/querystring.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@types/node/readline.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@types/node/repl.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@types/node/stream.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@types/node/string_decoder.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@types/node/timers.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@types/node/tls.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@types/node/trace_events.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@types/node/ts3.2/globals.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@types/node/ts3.2/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@types/node/ts3.2/util.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@types/node/tty.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@types/node/url.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@types/node/util.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@types/node/v8.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@types/node/vm.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@types/node/worker_threads.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@types/node/zlib.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@types/unist/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@types/unist/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@types/vfile-message/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@types/vfile-message/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@types/vfile/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@types/vfile/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/cordova-support-google-services/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/phonegap-plugin-multidex/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/phonegap-plugin-push/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/phonegap-plugin-push/types/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/bin/stylelint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/flow-typed/postcss.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/flow-typed/stylelint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/assignDisabledRanges.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/augmentConfig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/cli.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/createPlugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/createStylelint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/createStylelintResult.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/dynamicRequire.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/formatters/compactFormatter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/formatters/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/formatters/jsonFormatter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/formatters/needlessDisablesStringFormatter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/formatters/stringFormatter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/formatters/unixFormatter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/formatters/verboseFormatter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/getConfigForFile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/getPostcssResult.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/isPathIgnored.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/lintSource.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/needlessDisables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/normalizeRuleSettings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/postcssPlugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/printConfig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/reference/keywordSets.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/reference/namedColorData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/reference/propertySets.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/reference/punctuationSets.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/reference/shorthandData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/requireRule.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/at-rule-blacklist/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/at-rule-empty-line-before/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/at-rule-name-case/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/at-rule-name-newline-after/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/at-rule-name-space-after/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/at-rule-no-unknown/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/at-rule-no-vendor-prefix/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/at-rule-property-requirelist/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/at-rule-semicolon-newline-after/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/at-rule-semicolon-space-before/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/at-rule-whitelist/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/atRuleNameSpaceChecker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/block-closing-brace-empty-line-before/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/block-closing-brace-newline-after/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/block-closing-brace-newline-before/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/block-closing-brace-space-after/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/block-closing-brace-space-before/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/block-no-empty/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/block-opening-brace-newline-after/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/block-opening-brace-newline-before/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/block-opening-brace-space-after/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/block-opening-brace-space-before/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/color-hex-case/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/color-hex-length/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/color-named/generateColorFuncs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/color-named/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/color-no-hex/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/color-no-invalid-hex/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/comment-empty-line-before/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/comment-no-empty/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/comment-whitespace-inside/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/comment-word-blacklist/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/custom-media-pattern/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/custom-property-empty-line-before/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/custom-property-pattern/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/declaration-bang-space-after/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/declaration-bang-space-before/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/declaration-block-no-duplicate-properties/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/declaration-block-no-redundant-longhand-properties/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/declaration-block-no-shorthand-property-overrides/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/declaration-block-semicolon-newline-after/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/declaration-block-semicolon-newline-before/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/declaration-block-semicolon-space-after/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/declaration-block-semicolon-space-before/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/declaration-block-single-line-max-declarations/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/declaration-block-trailing-semicolon/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/declaration-colon-newline-after/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/declaration-colon-space-after/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/declaration-colon-space-before/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/declaration-empty-line-before/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/declaration-no-important/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/declaration-property-unit-blacklist/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/declaration-property-unit-whitelist/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/declaration-property-value-blacklist/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/declaration-property-value-whitelist/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/declarationBangSpaceChecker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/declarationColonSpaceChecker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/findMediaOperator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/font-family-name-quotes/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/font-family-no-duplicate-names/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/font-family-no-missing-generic-family-keyword/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/font-weight-notation/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/function-blacklist/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/function-calc-no-invalid/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/function-calc-no-unspaced-operator/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/function-comma-newline-after/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/function-comma-newline-before/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/function-comma-space-after/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/function-comma-space-before/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/function-linear-gradient-no-nonstandard-direction/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/function-max-empty-lines/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/function-name-case/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/function-parentheses-newline-inside/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/function-parentheses-space-inside/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/function-url-no-scheme-relative/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/function-url-quotes/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/function-url-scheme-blacklist/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/function-url-scheme-whitelist/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/function-whitelist/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/function-whitespace-after/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/functionCommaSpaceChecker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/functionCommaSpaceFix.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/indentation/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/keyframe-declaration-no-important/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/keyframes-name-pattern/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/length-zero-no-unit/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/linebreaks/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/max-empty-lines/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/max-line-length/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/max-nesting-depth/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/media-feature-colon-space-after/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/media-feature-colon-space-before/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/media-feature-name-blacklist/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/media-feature-name-case/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/media-feature-name-no-unknown/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/media-feature-name-no-vendor-prefix/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/media-feature-name-value-whitelist/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/media-feature-name-whitelist/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/media-feature-parentheses-space-inside/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/media-feature-range-operator-space-after/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/media-feature-range-operator-space-before/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/media-query-list-comma-newline-after/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/media-query-list-comma-newline-before/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/media-query-list-comma-space-after/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/media-query-list-comma-space-before/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/mediaFeatureColonSpaceChecker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/mediaQueryListCommaWhitespaceChecker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/no-descending-specificity/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/no-duplicate-at-import-rules/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/no-duplicate-selectors/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/no-empty-first-line/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/no-empty-source/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/no-eol-whitespace/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/no-extra-semicolons/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/no-invalid-double-slash-comments/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/no-missing-end-of-source-newline/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/no-unknown-animations/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/number-leading-zero/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/number-max-precision/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/number-no-trailing-zeros/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/property-blacklist/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/property-case/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/property-no-unknown/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/property-no-vendor-prefix/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/property-whitelist/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/rule-empty-line-before/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/selector-attribute-brackets-space-inside/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/selector-attribute-operator-blacklist/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/selector-attribute-operator-space-after/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/selector-attribute-operator-space-before/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/selector-attribute-operator-whitelist/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/selector-attribute-quotes/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/selector-class-pattern/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/selector-combinator-blacklist/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/selector-combinator-space-after/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/selector-combinator-space-before/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/selector-combinator-whitelist/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/selector-descendant-combinator-no-non-space/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/selector-id-pattern/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/selector-list-comma-newline-after/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/selector-list-comma-newline-before/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/selector-list-comma-space-after/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/selector-list-comma-space-before/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/selector-max-attribute/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/selector-max-class/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/selector-max-combinators/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/selector-max-compound-selectors/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/selector-max-empty-lines/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/selector-max-id/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/selector-max-pseudo-class/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/selector-max-specificity/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/selector-max-type/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/selector-max-universal/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/selector-nested-pattern/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/selector-no-qualifying-type/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/selector-no-vendor-prefix/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/selector-pseudo-class-blacklist/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/selector-pseudo-class-case/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/selector-pseudo-class-no-unknown/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/selector-pseudo-class-parentheses-space-inside/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/selector-pseudo-class-whitelist/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/selector-pseudo-element-blacklist/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/selector-pseudo-element-case/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/selector-pseudo-element-colon-notation/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/selector-pseudo-element-no-unknown/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/selector-pseudo-element-whitelist/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/selector-type-case/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/selector-type-no-unknown/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/selectorAttributeOperatorSpaceChecker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/selectorCombinatorSpaceChecker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/selectorListCommaWhitespaceChecker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/shorthand-property-no-redundant-values/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/string-no-newline/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/string-quotes/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/time-min-milliseconds/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/unit-blacklist/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/unit-case/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/unit-no-unknown/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/unit-whitelist/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/value-keyword-case/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/value-list-comma-newline-after/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/value-list-comma-newline-before/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/value-list-comma-space-after/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/value-list-comma-space-before/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/value-list-max-empty-lines/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/value-no-vendor-prefix/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/rules/valueListCommaWhitespaceChecker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/standalone.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/testUtils/basicChecks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/testUtils/createRuleTester.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/testUtils/mergeTestDescriptions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/FileCache.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/addEmptyLineAfter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/addEmptyLineBefore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/atRuleParamIndex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/beforeBlockString.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/blockString.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/blurComments.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/blurFunctionArguments.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/blurInterpolation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/checkAgainstRule.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/checkInvalidCLIOptions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/configurationError.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/containsString.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/declarationValueIndex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/eachDeclarationBlock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/filterFilePaths.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/findAnimationName.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/findAtRuleContext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/findFontFamily.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/findListStyleType.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/functionArgumentsSearch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/getCacheFile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/getFormatterOptionsText.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/getModulePath.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/getNextNonSharedLineCommentNode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/getOsEol.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/getPreviousNonSharedLineCommentNode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/getSchemeFromUrl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/getUnitFromValueNode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/hasBlock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/hasEmptyBlock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/hasEmptyLine.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/hasInterpolation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/hasLessInterpolation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/hasPsvInterpolation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/hasScssInterpolation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/hasTplInterpolation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/hasUnresolvedNestedSelector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/hash.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/isAfterComment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/isAfterSingleLineComment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/isAfterStandardPropertyDeclaration.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/isAutoprefixable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/isBlocklessAtRuleAfterBlocklessAtRule.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/isBlocklessAtRuleAfterSameNameBlocklessAtRule.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/isCounterIncrementCustomIdentValue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/isCounterResetCustomIdentValue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/isCustomElement.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/isCustomMediaQuery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/isCustomProperty.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/isCustomPropertySet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/isCustomSelector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/isFirstNested.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/isFirstNodeOfRoot.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/isKeyframeRule.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/isKeyframeSelector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/isNumbery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/isOnlyWhitespace.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/isRangeContextMediaFeature.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/isSharedLineComment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/isSingleLineString.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/isStandardSyntaxAtRule.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/isStandardSyntaxCombinator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/isStandardSyntaxDeclaration.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/isStandardSyntaxFunction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/isStandardSyntaxMediaFeature.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/isStandardSyntaxMediaFeatureName.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/isStandardSyntaxProperty.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/isStandardSyntaxRule.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/isStandardSyntaxSelector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/isStandardSyntaxTypeSelector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/isStandardSyntaxUrl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/isStandardSyntaxValue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/isValidFontSize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/isValidHex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/isVariable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/isWhitespace.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/matchesStringOrRegExp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/nextNonCommentNode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/noFilesFoundError.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/nodeContextLookup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/optionsMatches.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/parseCalcExpression/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/parseCalcExpression/parser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/parseSelector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/rawNodeString.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/removeEmptyLinesAfter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/removeEmptyLinesBefore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/ruleMessages.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/validateObjectWithArrayProps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/validateObjectWithStringArrayProps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/validateObjectWithStringOrRegexArrayProps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/validateOptions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/utils/whitespaceChecker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/vendor/writeFileAtomic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/lib/writeOutputFile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/stylelint/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/cordova-support-google-services/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/cordova-support-google-services/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/cordova-support-google-services/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/cordova-support-google-services/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/cordova-support-google-services/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/cordova-support-google-services/plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-multidex/MIT-LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-multidex/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-multidex/multidex.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-multidex/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-multidex/plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/.github/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/.github/ISSUE_TEMPLATE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/.github/PULL_REQUEST_TEMPLATE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/MIT-LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/docs/API.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/docs/EXAMPLES.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/docs/INSTALLATION.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/docs/ISSUES.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/docs/PAYLOAD.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/docs/PHONEGAP_BUILD.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/docs/PLATFORM_SUPPORT.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/docs/TYPESCRIPT.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/example/server/pushADM.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/example/server/pushAPNS.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/example/server/pushAzure.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/example/server/pushGCM.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/hooks/browser/updateManifest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/hooks/windows/setToastCapable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/push.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/spec/helper/cordova.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/spec/index.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/src/android/com/adobe/phonegap/push/BackgroundActionButtonHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/src/android/com/adobe/phonegap/push/FCMService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/src/android/com/adobe/phonegap/push/PushConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/src/android/com/adobe/phonegap/push/PushDismissedHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/src/android/com/adobe/phonegap/push/PushHandlerActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/src/android/com/adobe/phonegap/push/PushInstanceIDListenerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/src/android/com/adobe/phonegap/push/PushPlugin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/src/browser/ServiceWorker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/src/browser/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/src/ios/AppDelegate+notification.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/src/ios/AppDelegate+notification.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/src/ios/PushPlugin.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/src/ios/PushPlugin.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/src/js/push.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/src/windows/PushPluginProxy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/types/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/www/browser/push.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/www/push.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/js/controller/controllers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/js/notification.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/js/services/service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/cordovatrying.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cordovatrying.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/android.json" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/android.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/cordova_plugins.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/cordova_plugins.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/js/controller/todo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/js/services/todo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/partials/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/partials/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/partials/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/partials/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/java/io/cordova/hellocordova/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/res/xml/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/res/xml/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/platform_www/cordova_plugins.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/platform_www/cordova_plugins.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/browser.json" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/browser.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/platform_www/cordova_plugins.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/platform_www/cordova_plugins.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/platform_www/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/platform_www/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/www/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/cordova_plugins.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/www/cordova_plugins.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/www/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/www/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/www/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/js/controller/todo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/js/services/todo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/www/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/partials/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/www/partials/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/partials/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/www/partials/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/android.json" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/android.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/browser.json" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/browser.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/src/browser/SplashScreenProxy.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/src/browser/SplashScreenProxy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/tests.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/tests.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/www/splashscreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/www/splashscreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/www/windows/SplashScreenProxy.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/www/windows/SplashScreenProxy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/tests/scripts/remove-access.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/tests/scripts/remove-access.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/tests/tests.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/tests/tests.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/tests/www/whitelist.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/tests/www/whitelist.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/fetch.json" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/fetch.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/www/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/js/controller/todo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/js/services/todo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/partials/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/partials/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/partials/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/partials/list.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="config.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/js/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-19">
-              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="plugin.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/plugin.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/platforms/android/app/src/main/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="config.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/platforms/android/app/src/main/res/xml/config.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/platforms/android/app/src/main/res/values/strings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/www/js/app.js" />
-        <option value="$PROJECT_DIR$/www/js/controller/todo.js" />
-        <option value="$PROJECT_DIR$/platforms/android/app/src/main/res/xml/config.xml" />
-        <option value="$PROJECT_DIR$/platforms/android/app/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/config.xml" />
-        <option value="$PROJECT_DIR$/www/css/style.css" />
-      </list>
-    </option>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
-    <package-json value="$PROJECT_DIR$/package.json" />
-  </component>
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/node_modules" />
-  </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths>
-      <path value="$PROJECT_DIR$/package.json" />
-      <path value="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/package.json" />
-      <path value="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/ios/package.json" />
-      <path value="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/package.json" />
-      <path value="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/package.json" />
-      <path value="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/tests/package.json" />
-    </packageJsonPaths>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="450" />
-    <option name="y" value="-12" />
-    <option name="width" value="981" />
-    <option name="height" value="1032" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="cordovatrying" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cordovatrying" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cordovatrying" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cordovatrying" type="462c0819:PsiDirectoryNode" />
-              <item name="platforms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cordovatrying" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cordovatrying" type="462c0819:PsiDirectoryNode" />
-              <item name="platforms" type="462c0819:PsiDirectoryNode" />
-              <item name="android" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cordovatrying" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cordovatrying" type="462c0819:PsiDirectoryNode" />
-              <item name="platforms" type="462c0819:PsiDirectoryNode" />
-              <item name="android" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cordovatrying" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cordovatrying" type="462c0819:PsiDirectoryNode" />
-              <item name="plugins" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectId" id="1PeddWlGgwSbKUHiWswrgVSXmBW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="ter&#9;ACTION&#9;ActivateTerminalToolWindow&#10;term&#9;ACTION&#9;ActivateTerminalToolWindow&#10;te&#9;ACTION&#9;ActivateTerminalToolWindow" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.phonegap.settings.workdir" value="$PROJECT_DIR$" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/partials" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.jscs" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.jscs" value="project" />
+    <property name="node.js.path.for.package.standard" value="node" />
+    <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
+    <property name="node.js.selected.package.jscs" value="" />
+    <property name="node.js.selected.package.standard" value="$PROJECT_DIR$/node_modules/eslint" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\vovai\Desktop\cordovatrying\platforms\android\app\src\main\assets\www" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\vovai\Desktop\cordovatrying\platforms\android\app\src\main\assets\www\partials" />
       <recent name="C:\Users\vovai\Desktop\cordovatrying\www\js" />
     </key>
   </component>
@@ -195,6 +574,9 @@
       <option name="myExtraArgs" />
       <option name="hasTarget" value="false" />
       <option name="target" />
+      <method v="2">
+        <option name="PhonegapTask" enabled="true" />
+      </method>
     </configuration>
   </component>
   <component name="SvnConfiguration">
@@ -216,318 +598,65 @@
       <workItem from="1565183407390" duration="5000" />
       <workItem from="1565183561781" duration="154000" />
       <workItem from="1565183858042" duration="520000" />
-      <workItem from="1565202620658" duration="2734000" />
+      <workItem from="1565202620658" duration="3620000" />
+      <workItem from="1565279414968" duration="23000" />
+      <workItem from="1566236092442" duration="1136000" />
+      <workItem from="1566238588969" duration="855000" />
+      <workItem from="1566239477972" duration="140000" />
+      <workItem from="1566239637865" duration="30000" />
+      <workItem from="1566239687478" duration="8000" />
+      <workItem from="1566239711427" duration="8000" />
+      <workItem from="1566239736892" duration="2088000" />
+      <workItem from="1566242297076" duration="20007000" />
+      <workItem from="1566382869888" duration="7241000" />
+      <workItem from="1566471275372" duration="6000000" />
+      <workItem from="1566487836169" duration="54000" />
+      <workItem from="1566487940595" duration="399000" />
+      <workItem from="1566488410118" duration="179000" />
+      <workItem from="1566488601242" duration="35000" />
+      <workItem from="1566488648236" duration="46000" />
+      <workItem from="1566488706119" duration="331000" />
+      <workItem from="1566489138561" duration="300000" />
+      <workItem from="1566489453154" duration="149000" />
+      <workItem from="1566489765727" duration="114000" />
+      <workItem from="1566489972458" duration="597000" />
+      <workItem from="1566490593394" duration="2692000" />
+      <workItem from="1566496403963" duration="1714000" />
+      <workItem from="1566652280076" duration="130000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29752000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24980484" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info id="npm" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32993197" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33843538" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="TypeScript" order="8" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection Results" order="8" weight="0.32993197" />
-      <window_info anchor="bottom" id="Messages" order="7" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/platforms/android/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/plugin.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platforms/android/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platforms/android/app/src/main/res/xml/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platforms/android/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/plugin.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platforms/android/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platforms/android/app/src/main/res/xml/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platforms/android/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/plugin.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platforms/android/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platforms/android/app/src/main/res/xml/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platforms/android/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/plugin.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" column="22" lean-forward="true" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platforms/android/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platforms/android/app/src/main/res/xml/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platforms/android/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/partials/detail.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/controller/todo.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/partials/list.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/services/todo.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/controller/todo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/partials/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/partials/detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platforms/android/app/src/main/res/mipmap-mdpi/ic_launcher.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platforms/android/app/src/main/res/drawable-port-xxhdpi/screen.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platforms/android/app/src/main/res/drawable-port-xhdpi/screen.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-14">
-          <caret line="5" column="60" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platforms/android/app/src/main/assets/www/css/style.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platforms/android/app/src/main/assets/www/cordova_plugins.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/www/splashscreen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-306" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/www/windows/SplashScreenProxy.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-388" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/types/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-31" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/src/android/SplashScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-765" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platforms/android/app/src/main/res/drawable-land-hdpi/screen.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platforms/android/app/src/main/assets/www/plugins/cordova-plugin-splashscreen/www/splashscreen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platforms/android/platform_www/plugins/cordova-plugin-splashscreen/www/splashscreen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-371" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platforms/android/app/src/main/res/drawable-port-mdpi/screen.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platforms/android/app/src/main/res/mipmap-hdpi/ic_launcher.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/plugin.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platforms/android/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platforms/android/app/src/main/res/xml/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platforms/android/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

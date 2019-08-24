@@ -1,25 +1,35 @@
-angular.module('todoApp',[
-	'ngRoute',
-	'todoApp.controllers',
-	'todoApp.services'
-	])
+// eslint-disable-next-line no-undef
+var app = angular.module('app',['ui.router', 'todoApp.services','todoApp.controllers']);
 
-	.config(function($routeProvider){
-	$routeProvider
-	.when('/',{
-		controller:'ListCtrl',
-		templateUrl:'./partials/list.html'
+app.config(['$stateProvider',function($stateProvider){
+	$stateProvider
+		.state('first',{
+			url: '/new',
+			templateUrl:'partials/detail.html',
+			controller:'CreateCtrl'
 	})
-	.when('/edit/:todoText',{
-		controller:'EditCtrl',
-		templateUrl:'./partials/detail.html'
+		.state('second',{
+			url: '/edit/:todoText',
+			controller:'EditCtrl',
+			templateUrl:'partials/detail.html'
 	})
+		.state('third',{
+			url:'/',
+			controller:'ListCtrl',
+			templateUrl:'partials/list.html'
 
-	.when('/new',{
-		controller:'CreateCtrl',
-		templateUrl:'./partials/detail.html'
 	})
-	.otherwise({
-		redirectTo:'/'
-	});
-})
+		.state('root',{
+			controller:'ListCtrl',
+			templateUrl:'partials/list.html'
+	})
+}]);
+
+
+
+
+
+
+
+
+	

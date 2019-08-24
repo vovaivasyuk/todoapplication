@@ -29,6 +29,7 @@ var bgColor = "#464646";
 var imageSrc = '/img/logo.png';
 var splashScreenDelay = 3000; // in milliseconds
 var showSplashScreen = true; // show splashcreen by default
+// eslint-disable-next-line no-undef
 var cordova = require('cordova');
 var configHelper = cordova.require('cordova/confighelper');
 var autoHideSplashScreen = true;
@@ -164,7 +165,9 @@ function showAndHide() {
     });
 })();
 
+// eslint-disable-next-line no-undef
 module.exports = SplashScreen;
 
+// eslint-disable-next-line no-undef
 require("cordova/exec/proxy").add("SplashScreen", SplashScreen);
 

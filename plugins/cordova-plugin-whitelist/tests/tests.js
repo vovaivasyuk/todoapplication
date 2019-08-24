@@ -18,24 +18,32 @@
  *
  */
 
+// eslint-disable-next-line no-undef
 exports.defineAutoTests = function () {
 
+    // eslint-disable-next-line no-undef
     var isAndroid = (cordova.platformId === "android");
 
+    // eslint-disable-next-line no-undef
     describe('Whitelist API (cordova.whitelist)', function () {
 
+        // eslint-disable-next-line no-undef
         it("should exist", function () {
+            // eslint-disable-next-line no-undef
             expect(cordova.whitelist).toBeDefined();
         });
 
+        // eslint-disable-next-line no-undef
         describe("Match function (cordova.whitelist.match) that checks URLs against patterns", function () {
             function expectMatchWithResult(result) {
                 return (function (url, patterns, description) {
                     description = description || ((result ? "should accept " : "should reject ") + url + " for " + JSON.stringify(patterns));
                     this.result = result;
 
+                    // eslint-disable-next-line no-undef
                     describe("Match function", function () {
                         if (!isAndroid) {
+                            // eslint-disable-next-line no-undef
                             pending("Whitelist Plugin only exists for Android");
                         }
 
@@ -45,21 +53,30 @@ exports.defineAutoTests = function () {
                         var originalTimeout,
                             cb;
 
+                        // eslint-disable-next-line no-undef
                         beforeEach(function (done) {
+                            // eslint-disable-next-line no-undef
                             originalTimeout = jasmine.DEFAULT_TIMEOUT_INTERVAL;
+                            // eslint-disable-next-line no-undef
                             jasmine.DEFAULT_TIMEOUT_INTERVAL = 7500;
                             
+                            // eslint-disable-next-line no-undef
                             cb = jasmine.createSpy('spy').and.callFake(function () {
                                 done();
                             });
+                            // eslint-disable-next-line no-undef
                             cordova.whitelist.match(url, patterns, cb);
                         });
 
+                        // eslint-disable-next-line no-undef
                         afterEach(function () {
+                            // eslint-disable-next-line no-undef
                             jasmine.DEFAULT_TIMEOUT_INTERVAL = originalTimeout;
                         });
 
+                        // eslint-disable-next-line no-undef
                         it(description, function () {
+                            // eslint-disable-next-line no-undef
                             expect(cb).toHaveBeenCalledWith(result);
                         });
                     });
@@ -69,8 +86,11 @@ exports.defineAutoTests = function () {
             var itShouldMatch = expectMatchWithResult(true);
             var itShouldNotMatch = expectMatchWithResult(false);
 
+            // eslint-disable-next-line no-undef
             it("should exist", function () {
+                // eslint-disable-next-line no-undef
                 expect(cordova.whitelist.match).toBeDefined();
+                // eslint-disable-next-line no-undef
                 expect(typeof cordova.whitelist.match).toBe("function");
             });
 
@@ -120,6 +140,7 @@ exports.defineAutoTests = function () {
             itShouldMatch('https://www.apache.org/',    ['*://www.apache.org/*']);
             itShouldMatch('ftp://www.apache.org/',      ['*://www.apache.org/*']);
             itShouldMatch('file://www.apache.org/',     ['*://www.apache.org/*']);
+            // eslint-disable-next-line no-undef
             if (cordova.platformId == 'android')
                 itShouldMatch('content://www.apache.org/', ['*://www.apache.org/*']);
             itShouldMatch('foo://www.apache.org/',      ['*://www.apache.org/*']);
@@ -151,33 +172,45 @@ exports.defineAutoTests = function () {
             itShouldNotMatch('http://www.apache.org/Foo/bar',   ['*://*.apache.org/foo/*']);
         });
 
+        // eslint-disable-next-line no-undef
         describe("Test function (cordova.whitelist.test) that checks against config.xml", function () {
             function expectTestWithResult(result) {
                 return (function (url, description) {
                     description = description || ((result ? "should accept " : "should reject ") + url);
 
+                    // eslint-disable-next-line no-undef
                     describe("Test function", function () {
                         if (!isAndroid) {
+                            // eslint-disable-next-line no-undef
                             pending("Whitelist Plugin only exists for Android");
                         }
 
                         var cb,
                             originalTimeout;
 
+                        // eslint-disable-next-line no-undef
                         beforeEach(function (done) {
+                            // eslint-disable-next-line no-undef
                             originalTimeout = jasmine.DEFAULT_TIMEOUT_INTERVAL;
+                            // eslint-disable-next-line no-undef
                             jasmine.DEFAULT_TIMEOUT_INTERVAL = 7500;
+                            // eslint-disable-next-line no-undef
                             cb = jasmine.createSpy('spy').and.callFake(function (){
                                 done();
                             });
+                            // eslint-disable-next-line no-undef
                             cordova.whitelist.test(url, cb);
                         });
 
+                        // eslint-disable-next-line no-undef
                         afterEach(function () {
+                            // eslint-disable-next-line no-undef
                             jasmine.DEFAULT_TIMEOUT_INTERVAL = originalTimeout;
                         });
 
+                        // eslint-disable-next-line no-undef
                         it(description, function () {
+                            // eslint-disable-next-line no-undef
                             expect(cb).toHaveBeenCalledWith(result);
                         });
                     });
@@ -187,8 +220,11 @@ exports.defineAutoTests = function () {
             var itShouldAccept = expectTestWithResult(true);
             var itShouldReject = expectTestWithResult(false);
 
+            // eslint-disable-next-line no-undef
             it("should exist", function () {
+                // eslint-disable-next-line no-undef
                 expect(cordova.whitelist.test).toBeDefined();
+                // eslint-disable-next-line no-undef
                 expect(typeof cordova.whitelist.test).toBe("function");
             });
 
@@ -207,6 +243,7 @@ exports.defineAutoTests = function () {
             itShouldReject('http://www.apache.org.evil.com/');
 
             itShouldAccept('file:///foo');
+            // eslint-disable-next-line no-undef
             if (cordova.platformId == 'android')
                 itShouldReject('content:///foo');
         });

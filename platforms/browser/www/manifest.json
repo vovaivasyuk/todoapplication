@@ -1,11 +1,1 @@
-{
-  "background_color": "#FFF",
-  "display": "standalone",
-  "name": "ToDoApplication",
-  "short_name": "ToDoApplication",
-  "version": "io.cordova.hellocordova",
-  "description": "A sample Apache Cordova application that responds to the deviceready event.",
-  "author": "Volodymyr Ivasiuk",
-  "icons": [],
-  "start_url": "index.html"
-}
+{"background_color":"#FFF","display":"standalone","name":"ToDoApplication","short_name":"ToDoApplication","version":"com.todo.app","description":"A sample To Do Application","author":"Volodymyr Ivasiuk","icons":[],"start_url":"index.html","gcm_sender_id":"996231231186"}

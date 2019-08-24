@@ -1,13 +1,9 @@
 *{
-font-family: 'Saira Stencil One', cursive;
-	
+	font-family: 'Saira Stencil One', cursive;
 	text-transform: capitalize;
 	font-size: 16pt;
 }
-
-
 h2{
-	text-shadow: 100;
 	text-align: center;
 
 }

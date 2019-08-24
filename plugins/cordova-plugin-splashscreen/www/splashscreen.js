@@ -19,6 +19,7 @@
  *
 */
 
+// eslint-disable-next-line no-undef
 var exec = require('cordova/exec');
 
 var splashscreen = {
@@ -30,4 +31,5 @@ var splashscreen = {
     }
 };
 
+// eslint-disable-next-line no-undef
 module.exports = splashscreen;

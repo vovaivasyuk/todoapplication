@@ -12,6 +12,12 @@
     },
     "cordova-plugin-splashscreen": {
       "PACKAGE_NAME": "io.cordova.hellocordova"
+    },
+    "phonegap-plugin-push": {
+      "PACKAGE_NAME": "com.todo.app"
+    },
+    "phonegap-plugin-multidex": {
+      "PACKAGE_NAME": "com.todo.app"
     }
   },
   "dependent_plugins": {}

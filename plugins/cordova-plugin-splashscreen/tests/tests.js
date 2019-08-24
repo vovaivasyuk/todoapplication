@@ -21,24 +21,35 @@
 
 /* jshint jasmine: true */
 
+// eslint-disable-next-line no-undef
 exports.defineAutoTests = function () {
+    // eslint-disable-next-line no-undef
     describe('Splashscreen (cordova)', function () {
+        // eslint-disable-next-line no-undef
         it("splashscreen.spec.1 should exist", function () {
+            // eslint-disable-next-line no-undef
             expect(navigator.splashscreen).toBeDefined();
         });
 
+        // eslint-disable-next-line no-undef
         it("splashscreen.spec.2 show method should exist", function () {
+            // eslint-disable-next-line no-undef
             expect(navigator.splashscreen.show).toBeDefined();
+            // eslint-disable-next-line no-undef
             expect(typeof navigator.splashscreen.show).toBe('function');
         });
 
+        // eslint-disable-next-line no-undef
         it("splashscreen.spec.3 hide method should exist", function () {
+            // eslint-disable-next-line no-undef
             expect(navigator.splashscreen.hide).toBeDefined();
+            // eslint-disable-next-line no-undef
             expect(typeof navigator.splashscreen.hide).toBe('function');
         });
     });
 };
 
+// eslint-disable-next-line no-undef
 exports.defineManualTests = function (contentEl, createActionButton) {
     function showFor(duration) {
         navigator.splashscreen.show();

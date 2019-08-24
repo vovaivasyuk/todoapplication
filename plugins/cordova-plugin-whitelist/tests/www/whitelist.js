@@ -19,9 +19,12 @@
  *
 */
 
+// eslint-disable-next-line no-unused-vars,no-undef
 var argscheck = require('cordova/argscheck'),
+    // eslint-disable-next-line no-undef
     exec = require('cordova/exec');
 
+// eslint-disable-next-line no-undef
 module.exports = {
     match: function(url, patterns, callback) {
         //argscheck.checkArgs('fF', 'Whitelist.match', arguments);
